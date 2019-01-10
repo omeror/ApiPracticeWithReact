@@ -21,12 +21,11 @@
 .App-link {
   color: #61dafb;
 }
+.wrapper {
+  background: linear-gradient(to right,  #c7c3eb,rgb(54, 148, 236));
+  height: 140vh;
+  width: 100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  justify-content: center;
+  align-items: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
