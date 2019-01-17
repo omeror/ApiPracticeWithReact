@@ -18,7 +18,7 @@ class RandomMeme extends Component {
 
     render() { 
         return ( 
-          <div className="col-md-4" >
+          <div >
             <div className="container">
               <form onSubmit={this.showMeme}>
                 <button  >SHOW ME A Meme!</button>
