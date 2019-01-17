@@ -18,7 +18,7 @@ class CatPics extends Component {
     
       render() {
         return (
-          <div className="col-md-4">
+          <div >
             <form onSubmit={this.handleSubmit}>
               <button>SHOW ME A CAT!</button>
             </form>
