@@ -6,24 +6,29 @@ import './App.css'
 import TvShowInfo from './Components/TvShowInfo';
 
 class App extends Component {
- 
     render() { 
-        return ( 
-            
-            <div className="wrapper" >
-                <NavBar/>       <br/>
-                <div className="row">
-                   
-                    <RandomMeme className="col-md-4"/>
-                   
-                    <CatPic className="col-md-4"/>
-                    <TvShowInfo className="col-md-4"/>
-                </div> 
+    return ( 
+        <div className="wrapper" >
+            <NavBar/> <br/>
+            <div className= "container-fluid">
+                <table>
+                <col width="33%"/>
+                <col width="33%"/>
+                <col width="33%"/>
+                    <td>
+                    <RandomMeme />
+                    </td>
+                    <td>
+                    <CatPic />
+                    </td>
+                    <td>
+                    <TvShowInfo />
+                    </td>
+                </table> 
                 <br/>
-                
             </div>
-      );
+        </div>
+        );
     }
-  }
-  
-  export default App;
+}
+export default App;
